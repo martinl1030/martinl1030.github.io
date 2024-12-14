@@ -1,0 +1,275 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <script src="./scripts.js" defer></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+    </style>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <header>
+      <nav>
+        <div class="mx-4 flex max-w-7xl justify-between bg-white">
+          <!-- Logo -->
+          <div class="">
+            <img class="h-16 md:h-20" src="./Logo.png" alt="Logo" />
+          </div>
+          <!-- Nav Links -->
+          <div class="my-auto">
+            <div class="hidden md:block">
+              <ul class="flex space-x-4">
+                <li>
+                  <a class="text-[#13857B]" href="index.html">Home</a>
+                </li>
+                <li>
+                  <a
+                    class="transition duration-200 hover:text-[#13857B]"
+                    href="about.html"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="transition duration-200 hover:text-[#13857B]"
+                    href="Classes.html"
+                    >Classes</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="transition duration-200 hover:text-[#13857B]"
+                    href="Schedule.html"
+                    >Schedule</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="transition duration-200 hover:text-[#13857B]"
+                    href="Pricing.html"
+                    >Pricing</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="transition duration-200 hover:text-[#13857B]"
+                    href="ContactUs.html"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- Mobile Nav Button-->
+            <div class="flex px-4 md:hidden">
+              <button class="mobile-menu-btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Mobile Nav Menu -->
+        <div class="mobile-menu hidden w-full border md:hidden">
+          <a class="block border bg-white py-2 text-center text-sm" href=""
+            >Home</a
+          >
+          <a class="block bg-white py-2 text-center text-sm" href="">About</a>
+          <a class="block bg-white py-2 text-center text-sm" href="">Classes</a>
+          <a class="block bg-white py-2 text-center text-sm" href=""
+            >Schedule</a
+          >
+          <a class="block bg-white py-2 text-center text-sm" href="">Pricing</a>
+          <a class="block bg-white py-2 text-center text-sm" href="">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <!-- Top Banner -->
+    <div class="bg-[#7db2b6] py-20">
+      <div class="space-y-4">
+        <div
+          class="mx-auto w-36 bg-teal-800 py-1 text-center text-lg text-white md:ml-10"
+        >
+          Welcome To
+        </div>
+        <div
+          class="mx-auto text-center font-italiana-regular text-4xl font-semibold text-white md:ml-10 md:text-start md:text-7xl"
+        >
+          Bilancia Fitness
+        </div>
+        <div class="flex flex-col text-white md:ml-10 md:flex-row md:space-x-4">
+          <div class="mx-4 md:mx-0">
+            <button
+              class="h-10 w-full rounded-md bg-[#13857B] text-center shadow-lg md:w-32"
+            >
+              Our Classes
+            </button>
+          </div>
+          <div class="mx-4 mt-4 md:mx-0 md:mt-0">
+            <button
+              class="h-10 w-full rounded-md border text-center shadow-lg md:w-32"
+            >
+              Schedule
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Us section -->
+    <div class="bg-white py-16 md:py-24">
+      <div
+        class="flex flex-col items-center justify-center px-4 md:flex-row md:space-x-10"
+      >
+        <div class="h-auto max-w-[480px]">
+          <img class="rounded-md" src="./home.jpeg" alt="" />
+        </div>
+        <div class="max-w-[480px] space-y-4 py-4 md:py-0">
+          <div class="text-xl font-semibold text-[#13857B]">About Us</div>
+          <div class="font-italiana-regular text-4xl font-semibold">
+            Move, Sweat, And Find Balance
+          </div>
+          <div>
+            At Bilancia Fitness we believe that adding fitness into your life is
+            all about balance. In different seasons of our lives our fitness
+            routine looks different. We are here to help you find what we are
+            all looking for - balance!
+          </div>
+          <div class="flex justify-center">
+            <button
+              class="h-10 w-32 rounded-md bg-[#13857B] text-center text-white"
+            >
+              About Us
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Email Sign Up -->
+    <div
+      class="flex flex-col space-y-4 bg-[#f3f3f3] px-4 py-16 md:flex-row md:justify-between md:space-y-0 md:py-24"
+    >
+      <div class="space-y-4">
+        <div class="text-[#13857B]">Never Miss A Beat</div>
+        <div class="text-2xl">Membership</div>
+        <div class="text-xl">
+          Save with our class packs and monthly memberships!
+        </div>
+        <div class="text-center">
+          <button
+            class="h-10 w-32 rounded-md bg-[#13857B] text-center text-white"
+          >
+            Pricing Details
+          </button>
+        </div>
+      </div>
+      <!-- Manually setting the height on this will constrain height of box but will cause it too be too small on mobile screen -->
+      <div
+        class="mx-auto flex max-w-[480px] flex-col items-center justify-center space-y-2 bg-[#e8efef] px-8 py-5 md:mr-0"
+      >
+        <div>Subscribe for latest articles and resources</div>
+        <div class="">
+          <form>
+            <input
+              type="text"
+              id="Email"
+              name="Email"
+              value="email"
+              class="h-10"
+            />
+            <input
+              type="submit"
+              value="Join Today"
+              class="h-10 w-32 rounded-md bg-[#13857B] text-center text-white"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Instragram carousel -->
+    <div class="mx-auto h-[200px]">Instagram Carousel</div>
+
+    <!-- Footer -->
+    <footer class="h-auto w-full bg-[#2A2A2A] px-4 pb-24 pt-6">
+      <div
+        class="mx-auto flex max-w-7xl justify-between border-b border-white border-opacity-30"
+      >
+        <div>
+          <img class="h-14 invert" src="./Footer-Logo.png" alt="" />
+        </div>
+        <div class="my-auto text-white">Follow Us</div>
+      </div>
+      <div
+        class="mx-auto grid max-w-7xl grid-cols-1 justify-between text-white md:grid-cols-5"
+      >
+        <div class="md:col-span-2">
+          <div class="pt-4 font-bold text-white">Address</div>
+          <div class="text-[#9D9D9D]">12 Salem Street Lynnfield, MA 01940</div>
+          <div>
+            <a href="mailto:info@bilanciafitness.com"
+              >info@bilanciafitness.com</a
+            >
+          </div>
+        </div>
+        <div class="">
+          <div class="pt-4 font-bold">Company</div>
+          <ul class="text-[#9D9D9D]">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">Pricing</a>
+            </li>
+            <li class="">
+              <a href="">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="">
+          <div class="pt-4 font-bold">Quick Links</div>
+          <ul class="text-[#9D9D9D]">
+            <li>
+              <a href="">Classes</a>
+            </li>
+            <li>
+              <a href="">Scheduling</a>
+            </li>
+          </ul>
+        </div>
+        <div class="">
+          <div class="py-4 font-bold">
+            BY APPOINTMENT ONLY,
+            <br />
+            PLEASE VIEW SCHEDULE
+          </div>
+          <button
+            class="h-10 w-32 rounded-lg bg-[#13857B] font-semibold transition duration-300 hover:bg-[#155A55]"
+          >
+            <a href="index.html">Schedule</a>
+          </button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
