@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,7 +13,7 @@
     <!-- Nav Bar -->
     <header>
       <nav>
-        <div class="mx-4 flex max-w-7xl justify-between bg-white">
+        <div class="mx-auto flex max-w-7xl justify-between bg-white">
           <!-- Logo -->
           <div class="">
             <img class="h-16 md:h-20" src="./Logo.png" alt="Logo" />
@@ -23,7 +23,11 @@
             <div class="hidden md:block">
               <ul class="flex space-x-4">
                 <li>
-                  <a class="text-[#13857B]" href="index.html">Home</a>
+                  <a
+                    class="transition duration-200 hover:text-[#13857B]"
+                    href="index.html"
+                    >Home</a
+                  >
                 </li>
                 <li>
                   <a
@@ -40,11 +44,7 @@
                   >
                 </li>
                 <li>
-                  <a
-                    class="transition duration-200 hover:text-[#13857B]"
-                    href="Schedule.html"
-                    >Schedule</a
-                  >
+                  <a class="text-[#13857B]" href="Schedule.html">Schedule</a>
                 </li>
                 <li>
                   <a
@@ -96,7 +96,9 @@
           <a class="block bg-white py-2 text-center text-sm" href="Classes.html"
             >Classes</a
           >
-          <a class="block bg-white py-2 text-center text-sm" href=""
+          <a
+            class="block bg-white py-2 text-center text-sm"
+            href="Schedule.html"
             >Schedule</a
           >
           <a class="block bg-white py-2 text-center text-sm" href="Pricing.html"
@@ -111,13 +113,28 @@
       </nav>
     </header>
     <!-- Content -->
-    <div class="bg-teal-100">
+    <div class="bg-[#83c8c5]">
       <div
-        class="mx-auto max-w-7xl pb-4 ps-8 pt-6 font-italiana-regular text-4xl font-semibold text-[#13857B]"
+        class="mx-auto max-w-7xl pb-4 ps-8 pt-6 font-italiana-regular text-4xl font-semibold text-[#13374e]"
       >
         Schedule
       </div>
     </div>
+
+    <div class="mx-auto max-w-5xl">
+      <!-- Mindbody Schedules widget begin -->
+      <div
+        class="mindbody-widget"
+        data-widget-type="Schedules"
+        data-widget-id="d5105122edd"
+      ></div>
+      <script
+        async
+        src="https://brandedweb.mindbodyonline.com/embed/widget.js"
+      ></script>
+      <!-- Mindbody Schedules widget end -->
+    </div>
+
     <!-- Footer -->
     <footer class="h-auto w-full bg-[#2A2A2A] px-4 pb-24 pt-6">
       <div
