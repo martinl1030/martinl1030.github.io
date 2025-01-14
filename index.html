@@ -1,9 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
+    <link href="./nav.css" rel="stylesheet" />
     <script src="./scripts.js" defer></script>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
@@ -12,7 +13,7 @@
   <body class="">
     <!-- Nav Bar -->
     <header class="">
-      <nav class="w-full bg-white">
+      <nav class="w-full bg-white" id="navbar">
         <div class="mx-auto flex max-w-7xl justify-between px-4">
           <!-- Logo -->
           <div class="">
@@ -84,28 +85,36 @@
           </div>
         </div>
         <!-- Mobile Nav Menu -->
-        <div class="mobile-menu hidden w-full border md:hidden">
+        <div
+          class="mobile-menu hidden fixed top-16 md:top-20 left-0 w-full bg-white shadow-lg z-50 md:hidden"
+        >
           <a
-            class="block border bg-white py-2 text-center text-sm"
+            class="block py-2 text-center text-sm hover:bg-gray-50"
             href="index.html"
             >Home</a
           >
-          <a class="block bg-white py-2 text-center text-sm" href="about.html"
+          <a
+            class="block py-2 text-center text-sm hover:bg-gray-50"
+            href="about.html"
             >About</a
           >
-          <a class="block bg-white py-2 text-center text-sm" href="Classes.html"
+          <a
+            class="block py-2 text-center text-sm hover:bg-gray-50"
+            href="Classes.html"
             >Classes</a
           >
           <a
-            class="block bg-white py-2 text-center text-sm"
+            class="block py-2 text-center text-sm hover:bg-gray-50"
             href="Schedule.html"
             >Schedule</a
           >
-          <a class="block bg-white py-2 text-center text-sm" href="Pricing.html"
+          <a
+            class="block py-2 text-center text-sm hover:bg-gray-50"
+            href="Pricing.html"
             >Pricing</a
           >
           <a
-            class="block bg-white py-2 text-center text-sm"
+            class="block py-2 text-center text-sm hover:bg-gray-50"
             href="ContactUs.html"
             >Contact</a
           >
